@@ -1,0 +1,311 @@
+body {
+     margin: 0;
+    padding: 0;
+}
+
+
+
+#logo {
+    height: 10vw;
+    width: 10vw;
+    margin-left: 43vw;
+    margin-top: 1vw;
+}
+
+#name {
+    font-size: 0.9vw;;
+    font-weight: 800;
+    color: gray;
+    margin-left: 43vw;
+    text-decoration: overline;
+}
+/*            <!--   Menu og Dropdown->*/ 
+
+.dropmenu {
+   margin-left: 17vw;
+    top: 17vw;
+    position: absolute;
+}
+
+#forsidelink {
+  background-color: black;
+  color: white;
+    font-family: 'Inconsolata', monospace;
+  padding: 0.7vw;
+padding-left: 4vw;
+padding-right: 3vw;
+  font-size: 3vw;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+#cvlink {
+  background-color: black;
+  color: white;
+    font-family: 'Inconsolata', monospace;
+  padding: 0.7vw;
+padding-left: 9vw;
+padding-right: 9vw;
+  font-size: 3vw;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+#arbejdelink {
+  background-color: black;
+  color: white;
+    font-family: 'Inconsolata', monospace;
+  padding: 0.7vw;
+padding-left: 4vw;
+padding-right: 4vw;
+  font-size: 3vw;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  float: left;
+}
+
+
+.dropdown:hover #forsidelink {
+  background-color: skyblue;
+}
+
+.dropdown:hover #cvlink {
+  background-color: skyblue;
+}
+
+.dropdown:hover #arbejdelink {
+  background-color: skyblue;
+}
+
+/*            <!--   Menu og Dropdown over 600px->*/ 
+
+@media screen and (min-width: 700px) {
+
+.dropmenu {
+   margin-left: 16vw;
+    top: 17vw;
+    position: absolute;
+    border-radius: 2vw;
+}
+
+#forsidelink{
+  background-color: black;
+  color: white;
+    font-family: 'Inconsolata', monospace;
+  padding: 1vw;
+padding-left: 8vw;
+padding-right: 8vw;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+#cvlink{
+  background-color: black;
+  color: white;
+    font-family: 'Inconsolata', monospace;
+  padding: 1vw;
+padding-left: 11vw;
+padding-right: 11vw;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+#arbejdelink{
+  background-color: black;
+  color: white;
+    font-family: 'Inconsolata', monospace;
+  padding: 1vw;
+padding-left: 8vw;
+padding-right: 8vw;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  float: left;
+}
+
+
+.dropdown:hover #forsidelink {
+  background-color: skyblue;
+}
+
+.dropdown:hover #cvlink {
+  background-color: skyblue;
+}
+
+.dropdown:hover #arbejdelink {
+  background-color: skyblue;
+}
+#me {
+    position: absolute;
+    left: 20.4vw;    
+    
+}
+
+
+
+}
+
+
+#me {
+    position: absolute;
+    left: 20vw;
+    top: 56vw;
+    width: 55vw;
+    height: 55vw;
+    border-radius: 100vw
+    
+}
+
+#ramme {
+    position: absolute;
+    left: 5vw;
+    top: 150vw;
+    width: 85vw;
+    height: 20.6vw;
+    border-radius: 1vw;
+    
+}
+
+#textbox1 {
+    position: relative;
+    background-color: white;
+    width: 80vw;
+    color: azure;
+    padding: 1vw;
+    margin: 1vw;
+    text-align: center;
+     border-radius: 1vw;
+    
+}
+
+#text {
+    position: relative;
+   width: 80vw;
+    font-size: 4.5vw;
+    font-weight: 1000;
+    line-height: 10vw;
+    color: black;
+   font-family: 'Inconsolata', monospace;
+}
+
+#overskrift {
+    position: relative;
+   width: 55vw;
+    font-size: 7vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    left: 12vw;
+    font-weight: 600;
+    line-height: 8vw;
+    color: black;
+   font-family: 'Inconsolata', monospace;
+    
+}
+
+
+
+
+@media (min-width: 700px) {
+
+#me {
+    position: absolute;
+    left: 15vw;
+    top: 35vw;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 100vw
+    
+}
+
+#ramme {
+    position: absolute;
+    background-color: black;
+    left: 55vw;
+    top: 35vw;
+    width: 25vw;
+    height: 20.6vw;
+    border-radius: 1vw;
+    
+}
+
+#textbox1 {
+    position: relative;
+    background-color: white;
+    width: 25vw;
+    color: azure;
+    padding: 1vw;
+    margin: 1vw;
+    text-align: center;
+     border-radius: 1vw;
+    
+}
+
+#text {
+    position: relative;
+   width: 35vw;
+    font-size: 1vw;
+    font-weight: 600;
+    line-height: 3vw;
+    color: black;
+   font-family: 'Inconsolata', monospace;
+}
+
+#overskrift {
+    position: relative;
+   width: 35vw;
+    font-size: 1vw;
+    font-weight: 600;
+    line-height: 3vw;
+    color: black;
+   font-family: 'Inconsolata', monospace;
+}
+
+
+}
+
+#footerbox {
+    position: absolute;
+    width: 100vw;
+    height: 20vw;
+ top: 120vw;
+    color: white;
+}
+
+#instalink {
+    position: absolute;
+    top: 16.5vw;
+    left: 45vw;
+
+}
+
+#ig {
+    height: 3vw;
+}
+
+#fblink {
+    position: absolute;
+    top: 16.5vw;
+    left: 50vw;
+
+}
+
+#fb {
+    height: 3vw;
+}
+

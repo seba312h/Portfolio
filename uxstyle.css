@@ -1,0 +1,603 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+#logo {
+    height: 15vw;
+    width: 15vw;
+    margin-left: 40vw;
+    margin-top: 3vw;
+}
+
+.forsidebillede {
+    position: relative;
+}
+
+#frontpic {
+    width: 100vw;
+}
+
+#name {
+    font-size: 1.25vw;;
+    font-weight: 800;
+    color: gray;
+    margin-left: 40.4vw;
+    text-decoration: overline;
+}
+
+#headline {
+    position: absolute;
+    top: 8.5vw;
+    left: 34vw;
+    font-size: 1.7vw;
+    font-family: 'Inconsolata', monospace;
+}
+
+/*            <!--   Menu og Dropdown->*/ 
+
+.dropmenu {
+   margin-left: 17vw;
+    position: absolute;
+}
+
+#forsidelink {
+  background-color: black;
+  color: white;
+    font-family: 'Inconsolata', monospace;
+  padding: 0.7vw;
+padding-left: 4vw;
+padding-right: 3vw;
+  font-size: 3vw;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+#cvlink {
+  background-color: black;
+  color: white;
+    font-family: 'Inconsolata', monospace;
+  padding: 0.7vw;
+padding-left: 9vw;
+padding-right: 9vw;
+  font-size: 3vw;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+#arbejdelink {
+  background-color: black;
+  color: white;
+    font-family: 'Inconsolata', monospace;
+  padding: 0.7vw;
+padding-left: 4vw;
+padding-right: 4vw;
+  font-size: 3vw;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  float: left;
+}
+
+
+.dropdown:hover #forsidelink {
+  background-color: skyblue;
+}
+
+.dropdown:hover #cvlink {
+  background-color: skyblue;
+}
+
+.dropdown:hover #arbejdelink {
+  background-color: skyblue;
+}
+
+
+/*            <!--   Menu og Dropdown over 600px->*/ 
+
+@media (min-width: 700px) {
+
+.dropmenu {
+    position: absolute;
+   margin-left: 16vw;
+    top: 1vw;
+    border-radius: 2vw;
+}
+
+#forsidelink{
+  background-color: black;
+  color: white;
+    font-family: 'Inconsolata', monospace;
+  padding: 1.5vw;
+padding-left: 8vw;
+padding-right: 8vw;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+#cvlink{
+  background-color: black;
+  color: white;
+    font-family: 'Inconsolata', monospace;
+  padding: 1.5vw;
+padding-left: 11vw;
+padding-right: 11vw;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+#arbejdelink{
+  background-color: black;
+  color: white;
+    font-family: 'Inconsolata', monospace;
+  padding: 1.5vw;
+padding-left: 8vw;
+padding-right: 8vw;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  float: left;
+}
+
+
+.dropdown:hover #forsidelink {
+  background-color: skyblue;
+}
+
+.dropdown:hover #cvlink {
+  background-color: skyblue;
+}
+
+.dropdown:hover #arbejdelink {
+  background-color: skyblue;
+}
+
+}
+
+#footerbox {
+    position: absolute;
+    width: 100vw;
+    height: 20vw;
+    background-color: black;
+   bottom: -60vw;
+    color: white;
+}
+
+
+#instalink {
+    position: relative;
+    top: 16vw;
+    left: 45vw;
+
+}
+
+#ig {
+    left: 5vw;
+    height: 3vw;
+}
+
+#fblink {
+    position: absolute;
+    top: 16vw;
+    left: 50vw;
+
+}
+
+#fb {
+    height: 3vw;
+}
+
+#tlf {
+    position: absolute;
+    top: 16vw;
+    left: 5vw;
+    font-size: 1.2vw;
+    line-height: 3.5vw;
+    font-weight: 1000;
+    text-decoration: none;
+    font-family: 'Exo', sans-serif;
+}
+
+#mail {
+    position: absolute;
+    top: 16vw;
+    left: 80vw;
+    font-size: 1.2vw;
+    line-height: 3.5vw;
+    font-weight: 1000;
+    text-decoration: none;
+    font-family: 'Exo', sans-serif;
+}
+
+#maillink {
+    text-decoration: none;
+    font-family: 'Exo', sans-serif;
+    color: white;
+}
+/*            <!--   Indhold->*/ 
+
+.grid_container {
+    position: absolute;
+    grid-column-gap: 5vw;
+    top: 12vw;
+    height: 45vw;
+    padding: 1vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#columntext {
+    position: relative;
+    top: 6vw;
+    grid-column-start: 2;
+     font-size: 1.5vw;
+    font-weight: 600;
+    line-height: 3vw;
+    color: black;
+   font-family: 'Inconsolata', monospace;
+    
+}
+
+#columnpic {
+    position: relative;
+    grid-column-start: 1;
+    
+}
+
+
+#forpic {
+    position: relative;
+    left: 1vw;
+    top: -20vw;
+    width: 45vw;
+}
+
+#forpic2 {
+    position: relative;
+    left: 5vw;
+    top: -35vw;
+    width: 25vw;
+}
+
+
+.grid_container2 {
+    position: absolute;
+    background-color: black;
+    top: 75vw;
+    height: 55vw;
+    padding: 1vw;
+    padding-left: 3vw;
+    padding-right: 5vw;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 5vw;
+}
+
+#columntext2 {
+    position: relative;
+    grid-column-start: 1;
+     font-size: 1.5vw;
+    font-weight: 600;
+    line-height: 3vw;
+    color: white;
+   font-family: 'Inconsolata', monospace;
+    
+}
+
+#columnpic2 {
+    position: relative;
+    grid-column-start: 2;
+    top: 5vw;
+    
+}
+
+
+.grid_container3 {
+    position: absolute;
+    top: 160vw;
+    height: 45vw;
+    padding: 1vw;
+    padding-left: 3vw;
+    padding-right: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 5vw;
+}
+
+#columntext3 {
+    position: relative;
+    grid-column-start: 2;
+     font-size: 1.5vw;
+    font-weight: 600;
+    line-height: 3vw;
+    color: black'';
+   font-family: 'Inconsolata', monospace;
+    
+}
+
+#columnpic3 {
+    position: relative;
+    grid-column-start: 1;
+    
+}
+
+
+
+#forpic {
+    position: relative;
+    left: 1vw;
+    top: -27vw;
+    width: 45vw;
+}
+
+#forpic2 {
+    position: relative;
+    left: 5vw;
+    top: -35vw;
+    width: 25vw;
+}
+
+#forpic3 {
+    position: relative;
+    top: 5vw;
+    margin-left 5vw;
+    width: 45vw;
+}
+
+#forpic4 {
+    position: relative;
+    top: -3vw;
+    left: 5vw;
+    width: 35vw;
+}
+
+#forpic5 {
+    position: relative;
+    top: -43vw;
+    margin-left 5vw;
+    width: 45vw;
+}
+
+#forpic6 {
+    position: relative;
+    top: -45vw;
+    left: 5vw;
+    width: 35vw;
+}
+
+.knap {
+    
+}
+
+#produktknap {
+    background-color: black;
+    color: white;
+     font-family: 'Inconsolata', monospace;
+    font-size: 1.8vw;
+    height: 3.5vw;
+    width: 15vw;
+    cursor: pointer;
+    border-radius: 1vw;
+    border: 1px;
+}
+
+#produktknap:hover {
+    background-color: skyblue;
+}
+
+#designdok {
+      position: absolute;
+    top: 31vw;
+    left: 19vw;
+    background-color: cadetblue;
+    color: white;
+     font-family: 'Inconsolata', monospace;
+    font-size: 1.4vw;
+    font-weight: 800;
+    height: 2.2vw;
+    width: 15vw;
+    cursor: pointer;
+    border-radius: 1vw;
+    border: 1px;
+}
+
+#designdok:hover {
+    color: black;
+}
+
+
+#nextbuttons {  
+    top: 25vw;
+}
+
+
+#nexttopic {
+    position: absolute;
+    top: 220vw;
+    left: 84vw;
+    background-color: black;
+    color: white;
+     font-family: 'Inconsolata', monospace;
+    font-size: 1.4vw;
+    font-weight: 800;
+    height: 2.5vw;
+    width: 11vw;
+    cursor: pointer;
+    border-radius: 1vw;
+    border: 1px;
+}
+
+#lasttopic {
+      position: absolute;
+    top: 220vw;
+    left: 2vw;
+    background-color: black;
+    color: white;
+     font-family: 'Inconsolata', monospace;
+    font-size: 1.4vw;
+    font-weight: 800;
+    height: 2.5vw;
+    width: 11vw;
+    cursor: pointer;
+    border-radius: 1vw;
+    border: 1px;
+}
+
+#nexttopic:hover {
+    background-color: skyblue;
+}
+
+#lasttopic:hover {
+    background-color: skyblue;
+}
+
+
+/*            <!--   Indhold over 600px->*/ 
+@media (min-width: 600px) {
+    .grid_container {
+    position: absolute;
+    grid-column-gap: 8vw;
+    top: 15vw;
+}
+    
+    
+      .grid_container2 {
+    position: absolute;
+    grid-column-gap: 20vw;
+    top: 60vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+          height: 45vw;
+}
+    
+        .grid_container3 {
+    position: absolute;
+    grid-column-gap: 20vw;
+    top: 125vw;
+}
+    
+    #columntext {
+    top: 6vw;
+     font-size: 0.8vw;
+    font-weight: 600;
+    line-height: 3vw;
+    
+}
+    
+ #columntext2 {
+     top: 3vw;
+     font-size: 0.8vw;
+    font-weight: 700;
+    line-height: 2.5vw;
+    
+}
+    
+    #columntext3 {
+     top: 5vw;
+     font-size: 0.8vw;
+    font-weight: 700;
+    line-height: 2.5vw;
+    
+}
+    
+    #forpic {
+    position: relative;
+    left: 6vw;
+    top: -20vw;
+    width: 32vw;
+}
+
+#forpic2 {
+    position: relative;
+    left: 9vw;
+    top: -25vw;
+    width: 17vw;
+}
+    
+        #forpic3 {
+    position: relative;
+
+    width: 35vw;
+}
+
+#forpic4 {
+    position: relative;
+    top: 2vw;
+    width: 22vw;
+}
+    
+           #forpic5 {
+
+    top: -25vw;
+    width: 35vw;
+}
+
+#forpic6 {
+    left: 7vw;
+    top: -25vw;
+    width: 22vw;
+}
+    
+#produktknap {
+    background-color: black;
+    color: white;
+     font-family: 'Inconsolata', monospace;
+    font-size: 1.4vw;
+    height: 3vw;
+    width: 13vw;
+    cursor: pointer;
+    border-radius: 1vw;
+    border: 1px;
+}
+
+    
+
+    #footerbox {
+    position: absolute;
+    width: 100vw;
+    height: 20vw;
+    background-color: black;
+   top: 185vw;
+    color: white;
+}
+
+    
+    #nexttopic {
+        top: 175vw;
+    }
+    
+    #lasttopic {
+        top: 175vw;
+    }
+    
+    #headline {
+        top: 5vw;
+    }
+    
+}

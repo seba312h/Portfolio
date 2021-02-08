@@ -1,0 +1,567 @@
+body {
+     margin: 0;
+    padding: 0;
+}
+
+#logo {
+    height: 10vw;
+    width: 10vw;
+    margin-left: 43vw;
+    margin-top: 1vw;
+}
+
+#name {
+    font-size: 0.9vw;;
+    font-weight: 800;
+    color: gray;
+    margin-left: 43vw;
+    text-decoration: overline;
+}
+/*            <!--   Menu og Dropdown->*/ 
+
+.dropmenu {
+   margin-left: 17vw;
+    top: 20vw;
+    position: absolute;
+}
+
+#forsidelink {
+  background-color: black;
+  color: white;
+    font-family: 'Inconsolata', monospace;
+  padding: 0.7vw;
+padding-left: 4vw;
+padding-right: 3vw;
+  font-size: 3vw;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+#cvlink {
+  background-color: black;
+  color: white;
+    font-family: 'Inconsolata', monospace;
+  padding: 0.7vw;
+padding-left: 9vw;
+padding-right: 9vw;
+  font-size: 3vw;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+#arbejdelink {
+  background-color: black;
+  color: white;
+    font-family: 'Inconsolata', monospace;
+  padding: 0.7vw;
+padding-left: 4vw;
+padding-right: 4vw;
+  font-size: 3vw;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  float: left;
+}
+
+
+.dropdown:hover #forsidelink {
+  background-color: skyblue;
+}
+
+.dropdown:hover #cvlink {
+  background-color: skyblue;
+}
+
+.dropdown:hover #arbejdelink {
+  background-color: skyblue;
+}
+
+
+/*            <!--   Menu og Dropdown over 600px->*/ 
+
+@media (min-width: 700px) {
+
+.dropmenu {
+   margin-left: 16vw;
+    top: 18vw;
+    position: absolute;
+    border-radius: 2vw;
+}
+
+#forsidelink{
+  background-color: black;
+  color: white;
+    font-family: 'Inconsolata', monospace;
+  padding: 1.5vw;
+padding-left: 8vw;
+padding-right: 8vw;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+#cvlink{
+  background-color: black;
+  color: white;
+    font-family: 'Inconsolata', monospace;
+  padding: 1.5vw;
+padding-left: 11vw;
+padding-right: 11vw;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+#arbejdelink{
+  background-color: black;
+  color: white;
+    font-family: 'Inconsolata', monospace;
+  padding: 1.5vw;
+padding-left: 8vw;
+padding-right: 8vw;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  float: left;
+}
+
+
+.dropdown:hover #forsidelink {
+  background-color: skyblue;
+}
+
+.dropdown:hover #cvlink {
+  background-color: skyblue;
+}
+
+.dropdown:hover #arbejdelink {
+  background-color: skyblue;
+}
+
+}
+
+
+
+/*            <!--   Indhold under 600   -->*/ 
+
+
+.grid-container {
+    position: absolute;
+    left: 0vw;
+    top: 30vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2vw;
+    grid-row-gap: 0.5vw;
+}
+
+
+
+#spil {
+    width: 96.5vw;
+    height: 45vw;
+    background-color: black;
+    border-radius: 2vw;
+     margin-top: 2vw;
+    grid-template-rows: 2;
+    grid-row-start: 3;
+    margin-top: -1vw;    
+    
+}
+
+
+
+#webpic {
+    position: relative;
+    top: 10vw;
+    left: 19vw;
+    width: 55vw;
+    
+}
+
+#fingerboel {
+    position: relative;
+    top: -4vw;
+    left: 25vw;
+    width: 45vw;
+    
+}
+
+#logo1 {
+    position: relative;
+    left: 36vw;
+    width: 25vw;
+    top: 1vw;
+   
+
+    
+}
+
+#logo2 {
+    position: relative;
+    top: -141vw;
+    left: 33vw;
+    width: 30vw;
+    border-radius: 1vw;
+   
+
+    
+}
+
+#ind_redesign {
+    position: relative;
+    top: -1vw;
+    left: 1.2vw;
+color: white;
+font-family: 'Inconsolata', monospace;
+   font-size: 3vw;
+}
+
+
+#ind_spil {
+    position: relative;
+    top: -1vw;
+    left: 1vw;
+color: white;
+font-family: 'Inconsolata', monospace;
+  font-size: 3vw;
+}
+
+
+
+
+#web {
+   grid-row-start: 1;
+grid-column-start: 1;
+    width: 96.5vw;
+    height: 45vw;
+    top: -22vw;
+    background-color: black;
+    border-radius: 2vw;
+     margin-top: 1vw;
+     grid-template-rows: 1;
+}
+
+#redesign {
+    grid-row-start: 4;
+    width: 96.5vw;
+    height: 45vw;
+    background-color: black;
+    top: 13vw;
+    grid-template-rows: 4;
+     border-radius: 2vw;
+    margin-top: -2vw;
+    
+    
+}
+
+#prototype {
+    grid-row-start: 2;
+   width: 96.5vw;
+    height: 45vw;
+    background-color: black;
+    top: 62vw;
+    border-radius: 2vw;
+    
+  
+}
+
+#prototypetext {
+     position: relative;
+    top: -145vw;
+    left: 1vw;
+    width: 60vw;
+color: white;
+font-family: 'Inconsolata', monospace;
+   font-size: 3vw;
+}
+
+#webtext {
+     position: relative;
+    top: -1vw;
+    left: 1vw;
+    width: 60vw;
+color: white;
+font-family: 'Inconsolata', monospace;
+   font-size: 3vw;
+}
+
+
+
+#footerbox {
+    position: absolute;
+    width: 100vw;
+    height: 20vw;
+    background-color: black;
+   top: 230vw;
+    color: white;
+}
+
+/*            <!--   Indhold over 600   -->*/ 
+
+@media (min-width: 600px) {
+    
+    .grid-container {
+    position: absolute;
+    left: 6vw;
+    top: 30vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 2vw;
+    grid-row-gap: 2vw;
+}
+
+    
+#prototypetext {
+     position: relative;
+    top: -23vw;
+    width: 15vw;
+color: white;
+font-family: 'Inconsolata', monospace;
+   font-size: 1.3vw;
+}
+
+#redesign {
+    border-radius: 2vw;
+    margin-top: 0;
+    grid-row-start: 1;
+    grid-column-start: 4;
+    width: 20vw;
+    height: 20vw;
+    background-color: black;
+    top: 76vw;
+    left: 15vw;
+}
+
+
+
+#spil {
+    width: 20vw;
+    height: 20vw;
+    background-color: black;
+    top: 40vw;
+    left: 52vw;
+    border-radius: 2vw;
+    margin-top: 0;
+    grid-row-start: 1;
+    
+}
+
+#prototype {
+   width: 20vw;
+    height: 20vw;
+    background-color: black;
+    top: 5vw;
+    left: 52vw;
+    border-radius: 2vw;
+    margin-top: 0;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+
+    
+#web {
+   width: 20vw;
+    height: 20vw;
+    background-color: black;
+    top: 40vw;
+    left: 16vw;
+    border-radius: 2vw;
+    margin-top: 0;
+}
+
+
+
+    
+    
+    
+    
+#webpic {
+    position: relative;
+    top: 4vw;
+    left: 1.2vw;
+    width: 17vw;
+    
+}
+
+#fingerboel {
+    position: relative;
+    top: -0.5vw;
+    left: 2.5vw;
+    width: 15vw;
+    
+}
+
+#logo1 {
+    position: relative;
+    top: 2vw;
+    left: 5.7vw;
+    width: 8vw;
+   
+
+    
+}
+
+#logo2 {
+    position: relative;
+    top: -17vw;
+    left: -19vw;
+    width: 14vw;
+    border-radius: 1vw;
+   
+
+    
+}
+
+
+#web {
+   width: 20vw;
+    height: 20vw;
+    background-color: black;
+    top: 40vw;
+    left: 16vw;
+    border-radius: 2vw;
+    margin-top: 0;
+}
+
+#redesign {
+    grid-row-start: 1;
+    grid-column-start: 4;
+width: 20vw;
+    height: 20vw;
+    background-color: black;
+    top: 76vw;
+    left: 15vw;
+    
+}
+    
+#ind_redesign {
+    position: relative;
+    top: -1vw;
+    left: 1.2vw;
+color: white;
+font-family: 'Inconsolata', monospace;
+   font-size: 1.3vw;
+}
+
+
+#ind_spil {
+    position: relative;
+    top: -1vw;
+    left: 1vw;
+color: white;
+font-family: 'Inconsolata', monospace;
+  font-size: 1.3vw;
+}
+
+#webtext {
+     position: relative;
+    top: -1vw;
+    left: 1vw;
+    width: 60vw;
+color: white;
+font-family: 'Inconsolata', monospace;
+   font-size: 1.3vw;
+}
+
+}
+/*            <!--   Footer   -->*/ 
+
+@media (min-width: 600px) {
+#footerbox {
+    position: absolute;
+    width: 100vw;
+    height: 20vw;
+    background-color: black;
+   top: 70vw;
+    color: white;
+}
+
+}
+#instalink {
+    position: absolute;
+    top: 16vw;
+    left: 45vw;
+
+}
+
+#ig {
+    height: 3vw;
+}
+
+#fblink {
+    position: absolute;
+    top: 16vw;
+    left: 50vw;
+
+}
+
+#fb {
+    height: 3vw;
+}
+
+#tlf {
+    position: absolute;
+    top: 16vw;
+    left: 5vw;
+    font-size: 1.2vw;
+    line-height: 3.5vw;
+    font-weight: 1000;
+    text-decoration: none;
+    font-family: 'Exo', sans-serif;
+}
+
+#mail {
+    position: absolute;
+    top: 16vw;
+    left: 80vw;
+    font-size: 1.2vw;
+    line-height: 3.5vw;
+    font-weight: 1000;
+    text-decoration: none;
+    font-family: 'Exo', sans-serif;
+}
+
+#maillink {
+    text-decoration: none;
+    font-family: 'Exo', sans-serif;
+    color: white;
+}
+
+
+/*            <!--   Animationer   -->*/ 
+
+.scale {
+    animation-name: scale_kf;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+
+
+@keyframes scale_kf {
+    0% {
+        transform: scaleX(1)
+    }
+
+    100% {
+        transform: scale(1.1)
+    }
+}
